@@ -1,6 +1,3 @@
-View(td)
-getwd()
-
 td$DateTime <- strptime(paste(td$Date, td$Time), "%Y-%m-%d %H:%M:%S")
 
 png(filename = "./plot3.png", height = 480, width = 480, units = "px")
