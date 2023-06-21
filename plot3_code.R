@@ -10,4 +10,5 @@ lines(td$DateTime, td$Sub_metering_2, type = "l", col = "red")
 lines(td$DateTime, td$Sub_metering_3, type = "l", col = "blue")
 legend("topright", col = c("black", "red", "blue"), border = "black", legend = c("Sub metering 1", "Sub metering 2",
                                                                                  "Sub metering 3"), lty = 1)
+dev.off()
      
